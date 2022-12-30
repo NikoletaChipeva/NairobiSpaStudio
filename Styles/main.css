@@ -1,0 +1,90 @@
+body {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: antiquewhite;
+
+}
+
+#logotext, #contact {
+    display: inline-block;
+    color: brown;
+    font-size: 0.5em;
+    vertical-align: middle;
+}
+
+#logotext {
+    position: relative;
+    left: 2%;
+    font-style: italic;
+}
+
+#contact {
+    position: relative;
+    left: 50%;
+}
+
+#logo, .main-menu {
+    display: inline;
+    width: 8%;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .main-menu, #logo {
+    float: left;
+  }
+
+  .main-menu {
+    position: relative;
+    top: 10px;
+    display: block;
+    color: brown;
+    text-align: center;
+    margin-left: 0.5em;
+    width: 12%;
+    height: 2em;
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 10px;
+  }
+  
+  li a:hover {
+    background-color:antiquewhite;
+  }
+
+  #women-pic {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+  #akcenti {
+    text-align: center;
+    padding-top: 1em;
+    color: brown;
+  }
