@@ -1,119 +1,125 @@
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #FBF1D3;
 }
 
 .header {
-    background-color: antiquewhite;
-    height: 2em;
-    width: 100%;
+  background-color: #FADA9D;
+  height: 2em;
+  width: 100%;
 }
 
 #logotext, #contact {
-    display: inline-block;
-    color: brown;
-    font-size: 1em;
-    vertical-align: middle;
-    line-height: 2em;
+  display: inline-block;
+  color: brown;
+  font-size: 1em;
+  vertical-align: middle;
+  line-height: 2em;
 }
 
 #logotext {
-    position: relative;
-    left: 1%;
+  position: relative;
+  left: 1%;
 }
 
 #contact {
-    position: absolute;
-    right: 2%;
+  position: absolute;
+  right: 2%;
 }
 
 #logo, .main-menu {
-    display: inline;
-    width: 10%;
+  display: inline;
+  width: 10%;
 }
 
 .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-
-  .main-menu, #logo {
-    float: left;
-  }
-
-  .main-menu {
-    position: relative;
-    top: 2em;
-    left: 10%;
-    display: block;
-    color: brown;
-    text-align: center;
-    margin-left: 0.5em;
-    width: 12%;
-    height: 2em;
-    text-decoration: none;
-    line-height: 2em;
-    font-size: 1.5em;
-  }
-  
-  li a:hover {
-    background-color:antiquewhite;
-  }
-
-  #women-pic {
-    width: 100%;
-    height: auto;
-  }
-  
-  .container {
-    position: relative;
-    margin: 0 auto;
-  }
-  
-  .container img {vertical-align: middle;}
-  
-  .container .content {
-    position: absolute;
-    top: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-    font-size: 1.5em;
-    text-align: center;
-  }
-  #akcenti-title {
-    text-align: center;
-    padding-top: 1em;
-    color: brown;
-    font-size: 2em;
-  }
-
-  .akcenti-img>img {
-    width: 100%;
-    height: auto;
-  }
-
-  .akcenti-img {
-    display: inline-block;
-    width: 40%;
-    margin: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FBF1D3;
 }
 
-  .rows_akcenti::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.main-menu, #logo {
+  float: left;
+}
 
-  .rows_akcenti {
-    padding-left: 15%;
-  }
+.main-menu {
+  position: relative;
+  top: 2em;
+  left: 10%;
+  display: block;
+  color: brown;
+  text-align: center;
+  margin-left: 0.5em;
+  width: 12%;
+  height: 2em;
+  text-decoration: none;
+  line-height: 2em;
+  font-size: 1.5em;
+}
 
-  .akcenti-img>p {
-    color: brown;
-    font-size: large;
-  }
+li a:hover {
+  background-color: #FADA9D;
+}
+
+#women-pic {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+#akcenti-title {
+  text-align: center;
+  padding-top: 1em;
+  color: brown;
+  font-size: 2em;
+}
+
+.akcenti-img>img {
+  width: 100%;
+  height: auto;
+}
+
+.akcenti-img {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  margin: 10px;
+}
+
+.rows_akcenti {
+  padding-left: 15%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.rows_akcenti .vaucher-header {
+  position:absolute;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
